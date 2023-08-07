@@ -1,0 +1,100 @@
+{
+    "project_profit": {
+       "header": [
+        {"id": "project_name", "type": "string", "caption": "Project name", "align": "left"},
+        {"id": "total_by_project", "type": "float", "caption": "Total by project", "align": "right"},
+        {"id": "project_type", "type": "string", "caption": "Project type", "align": "center"},
+        {"id": "jan", "type": "float", "caption": "Jan", "align": "right"},
+        {"id": "feb", "type": "float", "caption": "Feb", "align": "right"},
+        {"id": "mar", "type": "float", "caption": "Mar", "align": "right"},
+        {"id": "apr", "type": "float", "caption": "Apr", "align": "right"},
+        {"id": "may", "type": "float", "caption": "May", "align": "right"},
+        {"id": "jun", "type": "float", "caption": "Jun", "align": "right"},
+        {"id": "jul", "type": "float", "caption": "Jul", "align": "right"},
+        {"id": "aug", "type": "float", "caption": "Aug", "align": "right"},
+        {"id": "sep", "type": "float", "caption": "Sep", "align": "right"},
+        {"id": "oct", "type": "float", "caption": "Oct", "align": "right"},
+        {"id": "nov", "type": "float", "caption": "Nov", "align": "right"},
+        {"id": "dec", "type": "float", "caption": "Dec", "align": "right"}
+      ],
+      "data": [
+        ["Mimesis", 1024.3, "commercial", 2048.2, 4096.0, 512.1, 1024.2, 2048.3, 4096.4, 8192.5, 16384.6, 32768.7, 65536.8, 131072.9, 2456],
+        ["Mako", 2345.1, "internal", 3465.3, 6879.2, 8923.1, 4632.8, 7892.0, 3542.4, 6425.6, 1243.4, 3986.3, 9876.2, 4652.1, 678],
+        ["Edelweiss", 54.4, "commercial", 564.8, 753.2, 239.7, 143.1, 643.2, 987.5, 276.3, 872.4, 432.8, 192.7, 382.9, 807],
+        ["Aurora", 984.2, "internal", 3467.9, 9873.4, 6542.3, 2345.8, 3485.9, 4927.2, 9583.4, 2354.1, 9785.3, 2301.6, 7683.4, 1235],
+        ["Tundra", 432.1, "commercial", 753.2, 123.4, 865.3, 643.8, 372.1, 234.5, 654.2, 947.3, 1265.4, 743.2, 537.9, 2345],
+        ["Everest", 765.9, "commercial", 2345.2, 546.1, 7892.3, 8765.1, 3541.7, 2413.9, 5438.0, 6421.3, 4321.7, 4538.9, 5641.2, 9843],
+        ["Orion", 1245.3, "internal", 7654.3, 5432.5, 5436.9, 3256.1, 6425.8, 5438.2, 3257.9, 6543.2, 9784.6, 3658.2, 9765.2, 7384],
+        ["Polaris", 532.8, "commercial", 2365.2, 4561.3, 4321.5, 3245.6, 6425.7, 4521.8, 7541.9, 9876.1, 3654.2, 7423.1, 6521.2, 234],
+        ["Vega", 1245.6, "internal", 5432.3, 5435.9, 8795.1, 3285.2, 7568.4, 4358.3, 3245.9, 7548.6, 8762.3, 3289.1, 7543.1,2352],
+        ["Aquila", 853.2, "commercial", 4325.6, 7568.4, 2345.2, 5473.1, 1245.2, 6428.1, 3216.8, 6423.6, 9835.1, 3245.6, 7541.3, 345],
+        ["Cygnus", 2345.6, "internal", 5435.2, 5467.3, 3245.1, 7564.2, 5423.6, 3216.7, {"d": 6425.1, "color":"selected"}, 9876.3, 3245.1, 6423.9, 7541.8, 345],
+        ["Pegasus", 654.3, "commercial", 4325.1, 7548.6, 3256.9, 7653.1, 5436.2, 7541.8, 3265.9, 6425.3, 9876.1, 3256.8, 6435.2, 638],
+        ["Andromeda", 5432.1, "internal", 5436.7, 6435.8, 7548.3, 3256.8, 7543.2, 3256.8, 7548.1, 3265.4, 7541.3, 3268.1, 7542.9, 283],
+        ["Sirius", 4321.5, "commercial", 7543.1, 3268.5, 7542.9, 3267.3, 7548.1, 3245.1, 6428.9, 3216.8, 7548.3, 3265.8, 7541.6, 847],
+        ["Cassiopeia", 5432.5, "internal", 3267.3, 7548.6, 3265.8, 7541.6, 3267.2, 7541.8, 3265.8, 7541.6, 3265.8, 7541.8, 3265.8, 856]
+      ]},
+  
+      "books": {
+          "header": [
+            {"id": "title", "type": "string", "caption": "Title", "align": "left"},
+            {"id": "author", "type": "string", "caption": "Author", "align": "left"},
+            {"id": "genre", "type": "string", "caption": "Genre", "align": "left"},
+            {"id": "publisher", "type": "string", "caption": "Publisher", "align": "left"},
+            {"id": "publish_year", "type": "int", "caption": "Publish Year", "align": "right"},
+            {"id": "isbn", "type": "string", "caption": "ISBN", "align": "left"},
+            {"id": "copies_available", "type": "int", "caption": "Copies Available", "align": "right"},
+            {"id": "rating", "type": "float", "caption": "Rating", "align": "right"}
+          ],
+          "data": [
+            ["The Great Gatsby", "F. Scott Fitzgerald", "Fiction", "Scribner", 1925, "9780743273565", 5, 4.5],
+            ["To Kill a Mockingbird", "Harper Lee", "Fiction", "J. B. Lippincott & Co.", 1960, "9780061120084", 3, 4.8],
+            ["1984", "George Orwell", "Science Fiction", "Secker & Warburg", 1949, "9780451524935", 7, 4.3],
+            ["Pride and Prejudice", "Jane Austen", {"d": "Romance", "color": "selected"}, "T. Egerton, Whitehall", 1813, "9780141439518", 2, 4.7],
+            ["Brave New World", "Aldous Huxley", "Science Fiction", "Chatto & Windus", 1932, "9780060850524", 6, 4.1],
+            ["The Catcher in the Rye", "J. D. Salinger", "Fiction", "Little, Brown and Company", 1951, "9780316769174", 4, 4.0],
+            ["The Lord of the Rings", "J. R. R. Tolkien", "Fantasy", "George Allen & Unwin", 1954, "9780345339706", 3, 4.9],
+            ["Harry Potter and the Sorcerer's Stone", "J. K. Rowling", "Fantasy", "Bloomsbury", 1997, "9780590353427", 8, 4.7],
+            ["Fahrenheit 451", "Ray Bradbury", "Science Fiction", "Ballantine Books", 1953, "9781451673319", 5, 4.2],
+            ["The Hobbit", "J. R. R. Tolkien", "Fantasy", "George Allen & Unwin", 1937, "9780345339683", 4, 4.6],
+            ["The Alchemist", "Paulo Coelho", "Fiction", "HarperOne", 1988, "9780061122415", 6, 4.3],
+            ["Crime and Punishment", "Fyodor Dostoevsky", "Fiction", "The Russian Messenger", 1866, "9780486415871", 2, 4.5],
+            ["One Hundred Years of Solitude", "Gabriel Garcia Marquez", "Fiction", "Editorial Sudamericana", 1967, "9780060531041", 3, 4.8],
+            ["The Picture of Dorian Gray", "Oscar Wilde", "Fiction", "Lippincott's Monthly Magazine", 1890, "9780141439570", 2, 4.1],
+            ["The Brothers Karamazov", "Fyodor Dostoevsky", "Fiction", "The Russian Messenger", 1880, "9780140449242", 1, 4.6]
+          ]
+        },
+        "products": {
+          "header": [
+            {"id": "product_id", "type": "string", "caption": "Product ID", "align": "left"},
+            {"id": "product_name", "type": "string", "caption": "Product Name", "align": "left"},
+            {"id": "category", "type": "string", "caption": "Category", "align": "left"},
+            {"id": "brand", "type": "string", "caption": "Brand", "align": "left"},
+            {"id": "price", "type": "float", "caption": "Price", "align": "right"},
+            {"id": "stock_quantity", "type": "int", "caption": "Stock Quantity", "align": "right"},
+            {"id": "color", "type": "string", "caption": "Color", "align": "left"},
+            {"id": "weight", "type": "float", "caption": "Weight (kg)", "align": "right"},
+            {"id": "rating", "type": "float", "caption": "Rating", "align": "right"},
+            {"id": "product_url", "type": "string", "caption": "Product URL", "align": "left"}
+          ],
+          "data": [
+            ["PD001", "Smartphone X", "Electronics", "BrandX", 699.99, 50, "Black", 0.2, 4.5, "https://example.com/pd001"],
+            ["PD002", "Laptop Y", "Electronics", "BrandY", 1299.99, 25, "Silver", 1.5, 4.8, "https://example.com/pd002"],
+            ["PD003", "Headphones Z", "Electronics", "BrandZ", 199.99, 100, "White", 0.1, 4.3, "https://example.com/pd003"],
+            ["PD004", "T-shirt A", "Clothing", "BrandA", 19.99, 200, "Red", 0.3, 4.2, "https://example.com/pd004"],
+            ["PD005", "Jeans B", "Clothing", "BrandB", 49.99, 150, "Blue", 0.5, 4.6, "https://example.com/pd005"],
+            ["PD006", "Running Shoes C", "Shoes", "BrandC", 89.99, 80, "Black/White", 0.8, 4.4, "https://example.com/pd006"],
+            ["PD007", "Backpack D", "Accessories", "BrandD", 39.99, 120, "Gray", 0.4, 4.1, "https://example.com/pd007"],
+            [{"d": "PD008", "color": "selected"}, "Wrist Watch E", "Accessories", "BrandE", 299.99, 30, "Silver", 0.2, 4.7, "https://example.com/pd008"],
+            ["PD009", "Digital Camera F", "Electronics", "BrandX", 449.99, 40, "Black", 0.3, 4.3, "https://example.com/pd009"],
+            ["PD010", "Smart TV G", "Electronics", "BrandY", 899.99, 15, "Black", 12.5, 4.9, "https://example.com/pd010"],
+            ["PD011", "Dress H", "Clothing", "BrandA", 59.99, 80, "Pink", 0.4, 4.2, "https://example.com/pd011"],
+            ["PD012", "Sneakers I", "Shoes", "BrandC", 74.99, 100, "White", 0.7, 4.6, "https://example.com/pd012"],
+            ["PD013", "Sunglasses J", "Accessories", "BrandD", 29.99, 200, "Black", 0.1, 4.0, "https://example.com/pd013"],
+            ["PD014", "Vacuum Cleaner K", "Appliances", "BrandZ", 149.99, 60, "Red", 3.2, 4.3, "https://example.com/pd014"],
+            ["PD015", "Blender L", "Appliances", "BrandE", 69.99, 90, "Silver", 1.0, 4.5, "https://example.com/pd015"]
+          ]
+        }
+      }
+  
+  
